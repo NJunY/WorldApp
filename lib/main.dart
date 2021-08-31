@@ -5,7 +5,8 @@ import 'package:world_app/pages/choose_location.dart';
 
 void main() => runApp(
   MaterialApp(
-    initialRoute: '/home',
+    debugShowCheckedModeBanner: false,
+    initialRoute: '/',
     routes: {
       '/' : (context) => Loading(),
       '/home' : (context) => Home(),
